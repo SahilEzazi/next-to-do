@@ -1,0 +1,72 @@
+body{
+    background-color: black;
+}
+.container{
+    background-color: antiquewhite;
+    width: 80%;
+    height:1000px;
+    box-sizing: border-box;
+}
+h1{
+    color:black;
+    font-size: 2.5rem;
+}
+input{
+    height:40px;
+    width:18%;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    padding-left: 5px;
+}
+.adddata{
+    padding: 15px;
+    width:70%;
+    border-radius: 5px;
+    border: none;
+    background-color:  rgb(53,56,57);
+    color:white;
+    font-size: 20px;
+    height: 50px;
+    border:0.5px solid black;
+    
+}
+.adddata:hover{
+    background-color:black;
+}
+.box{
+    background-color: grey;
+    width:200px;
+    text-align: center;
+    height:40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.taskadd{
+    margin-top: 10px;
+    background-color: silver;
+    width:85%;
+    text-align: center;
+    height:50px;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* font-weight: bold; */
+}
+td{
+    width:200px;
+    height:40px;
+}
+.delete{
+    width:40px;
+    height:40px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 15px;
+    background-color: red;
+}
+.delete:hover{
+    background-color: lightcoral;
+}
